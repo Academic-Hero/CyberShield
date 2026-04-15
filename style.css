@@ -1,0 +1,110 @@
+body {
+  background: #0f172a;
+
+  background: linear-gradient(90deg, #11212d, #4a5c6a);
+
+  color: #e2e8f0;
+  font-family: Arial;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.options button {
+  margin-top: 20px;
+  margin: 5px;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: #1e293b;
+  color: white;
+  cursor: pointer;
+  margin-right: 15px;
+  font-weight: 550;
+}
+
+.options button:hover {
+  background: #22c55e;
+  transform: scale(1.05);
+  color: black;
+  font-weight: 600;
+  transition: transform 0.1s;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+.analyze-btn {
+  margin-top: 30px;
+  padding: 10px;
+  background: #a7dc14;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100px;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(20, 19, 19);
+  transition: transform 0.1s;
+}
+
+.analyze-btn:hover {
+  transform: scale(1.1);
+  background-color: #22c55e;
+}
+
+#output {
+  margin-top: 20px;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+canvas {
+  margin-top: 20px;
+  width: 150px;
+}
+
+.chart-container {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+#chart {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.upload-box {
+  margin-top: 10px;
+  padding: 12px;
+  background: #1e293b;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.upload-box:hover {
+  background: #334155;
+}
+
+#fileName {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #94a3b8;
+}

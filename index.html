@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CyberShield AI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e2cd747cbb.js"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1><i class="fa-solid fa-shield"></i> CyberShield AI</h1>
+
+      <div class="options">
+        <button onclick="setType('url')">
+          <i class="fa-solid fa-link"></i> Link
+        </button>
+        <button onclick="setType('email')">
+          <i class="fa-solid fa-envelope"></i> Email
+        </button>
+        <button onclick="setType('file')">
+          <i class="fa-solid fa-file"></i> Document
+        </button>
+        <button onclick="goToPage()">
+          <i class="fa-solid fa-unlock-keyhole"></i> Password Generator
+        </button>
+      </div>
+
+      <div id="inputArea"></div>
+
+      <button class="analyze-btn" onclick="analyze()">Analyze</button>
+
+      <div id="output"></div>
+
+      <div class="chart-container">
+        <canvas id="chart"></canvas>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
